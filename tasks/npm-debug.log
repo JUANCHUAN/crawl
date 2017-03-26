@@ -1,0 +1,329 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'request',
+1 verbose cli   'cheerio',
+1 verbose cli   'iconv-lite',
+1 verbose cli   'mongoose',
+1 verbose cli   'express',
+1 verbose cli   'debug',
+1 verbose cli   'async',
+1 verbose cli   'ejs',
+1 verbose cli   'cron',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.9
+3 info using node@v7.1.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData request
+8 silly fetchPackageMetaData cheerio
+9 silly fetchPackageMetaData iconv-lite
+10 silly fetchPackageMetaData mongoose
+11 silly fetchPackageMetaData express
+12 silly fetchPackageMetaData debug
+13 silly fetchPackageMetaData async
+14 silly fetchPackageMetaData ejs
+15 silly fetchPackageMetaData cron
+16 silly fetchNamedPackageData request
+17 silly mapToRegistry name request
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry http://172.18.1.139/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'request',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'request',
+20 silly mapToRegistry   name: 'request',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri http://172.18.1.139/request
+22 silly fetchNamedPackageData cheerio
+23 silly mapToRegistry name cheerio
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry http://172.18.1.139/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'cheerio',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'cheerio',
+26 silly mapToRegistry   name: 'cheerio',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri http://172.18.1.139/cheerio
+28 silly fetchNamedPackageData iconv-lite
+29 silly mapToRegistry name iconv-lite
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry http://172.18.1.139/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'iconv-lite',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   escapedName: 'iconv-lite',
+32 silly mapToRegistry   name: 'iconv-lite',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri http://172.18.1.139/iconv-lite
+34 silly fetchNamedPackageData mongoose
+35 silly mapToRegistry name mongoose
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry http://172.18.1.139/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'mongoose',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   escapedName: 'mongoose',
+38 silly mapToRegistry   name: 'mongoose',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri http://172.18.1.139/mongoose
+40 silly fetchNamedPackageData express
+41 silly mapToRegistry name express
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry http://172.18.1.139/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: 'express',
+44 silly mapToRegistry   scope: null,
+44 silly mapToRegistry   escapedName: 'express',
+44 silly mapToRegistry   name: 'express',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri http://172.18.1.139/express
+46 silly fetchNamedPackageData debug
+47 silly mapToRegistry name debug
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry http://172.18.1.139/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'debug',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'debug',
+50 silly mapToRegistry   name: 'debug',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri http://172.18.1.139/debug
+52 silly fetchNamedPackageData async
+53 silly mapToRegistry name async
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry http://172.18.1.139/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'async',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'async',
+56 silly mapToRegistry   name: 'async',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri http://172.18.1.139/async
+58 silly fetchNamedPackageData ejs
+59 silly mapToRegistry name ejs
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry http://172.18.1.139/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'ejs',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   escapedName: 'ejs',
+62 silly mapToRegistry   name: 'ejs',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri http://172.18.1.139/ejs
+64 silly fetchNamedPackageData cron
+65 silly mapToRegistry name cron
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry http://172.18.1.139/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'cron',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   escapedName: 'cron',
+68 silly mapToRegistry   name: 'cron',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri http://172.18.1.139/cron
+70 verbose request uri http://172.18.1.139/cron
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 15:12:59
+73 verbose request id 63005efc847e2650
+74 http request GET http://172.18.1.139/cron
+75 verbose request uri http://172.18.1.139/iconv-lite
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 15:12:59
+78 verbose etag "10e46-7UCTSUIwQfny6DTVHJ27yQ"
+79 http request GET http://172.18.1.139/iconv-lite
+80 verbose request uri http://172.18.1.139/request
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 15:12:59
+83 verbose etag "3e9bd-SIc2izv/3x2wpORYhd3YpQ"
+84 http request GET http://172.18.1.139/request
+85 verbose request uri http://172.18.1.139/cheerio
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 15:12:59
+88 verbose etag "1f1f6-zLwQ1pyXSOkNH+2DE/dC3Q"
+89 http request GET http://172.18.1.139/cheerio
+90 verbose request uri http://172.18.1.139/debug
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 15:12:59
+93 verbose etag "1498b-gDpU4TqJoODcVexoaFmMow"
+94 http request GET http://172.18.1.139/debug
+95 verbose request uri http://172.18.1.139/mongoose
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 15:12:59
+98 verbose etag "a125e-UChwjw0BFTznbFE6Sl7jNQ"
+99 http request GET http://172.18.1.139/mongoose
+100 verbose request uri http://172.18.1.139/express
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 15:12:59
+103 verbose etag "95b67-DkkK6f5tQRZBH2Xl9f6TUQ"
+104 http request GET http://172.18.1.139/express
+105 verbose request uri http://172.18.1.139/ejs
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 15:12:59
+108 verbose etag "121dc-nV+im8nPYxp4yeFKyT7XuQ"
+109 http request GET http://172.18.1.139/ejs
+110 verbose request uri http://172.18.1.139/async
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 15:12:59
+113 verbose etag "226bb-1jHJC38u8Ns5TtXLt+hhog"
+114 http request GET http://172.18.1.139/async
+115 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+116 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+117 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+118 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+119 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+120 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+121 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+122 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+123 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+124 info attempt registry request try #2 at 15:14:24
+125 http request GET http://172.18.1.139/cron
+126 info attempt registry request try #2 at 15:14:24
+127 verbose etag "1f1f6-zLwQ1pyXSOkNH+2DE/dC3Q"
+128 http request GET http://172.18.1.139/cheerio
+129 info attempt registry request try #2 at 15:14:24
+130 verbose etag "3e9bd-SIc2izv/3x2wpORYhd3YpQ"
+131 http request GET http://172.18.1.139/request
+132 info attempt registry request try #2 at 15:14:24
+133 verbose etag "10e46-7UCTSUIwQfny6DTVHJ27yQ"
+134 http request GET http://172.18.1.139/iconv-lite
+135 info attempt registry request try #2 at 15:14:24
+136 verbose etag "a125e-UChwjw0BFTznbFE6Sl7jNQ"
+137 http request GET http://172.18.1.139/mongoose
+138 info attempt registry request try #2 at 15:14:24
+139 verbose etag "1498b-gDpU4TqJoODcVexoaFmMow"
+140 http request GET http://172.18.1.139/debug
+141 info attempt registry request try #2 at 15:14:24
+142 verbose etag "121dc-nV+im8nPYxp4yeFKyT7XuQ"
+143 http request GET http://172.18.1.139/ejs
+144 info attempt registry request try #2 at 15:14:24
+145 verbose etag "95b67-DkkK6f5tQRZBH2Xl9f6TUQ"
+146 http request GET http://172.18.1.139/express
+147 info attempt registry request try #2 at 15:14:24
+148 verbose etag "226bb-1jHJC38u8Ns5TtXLt+hhog"
+149 http request GET http://172.18.1.139/async
+150 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+151 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+152 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+153 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+154 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+155 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+156 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+157 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+158 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 172.18.1.139:80
+159 info attempt registry request try #3 at 15:16:39
+160 http request GET http://172.18.1.139/cron
+161 info attempt registry request try #3 at 15:16:39
+162 verbose etag "1498b-gDpU4TqJoODcVexoaFmMow"
+163 http request GET http://172.18.1.139/debug
+164 info attempt registry request try #3 at 15:16:39
+165 verbose etag "a125e-UChwjw0BFTznbFE6Sl7jNQ"
+166 http request GET http://172.18.1.139/mongoose
+167 info attempt registry request try #3 at 15:16:39
+168 verbose etag "10e46-7UCTSUIwQfny6DTVHJ27yQ"
+169 http request GET http://172.18.1.139/iconv-lite
+170 info attempt registry request try #3 at 15:16:39
+171 verbose etag "3e9bd-SIc2izv/3x2wpORYhd3YpQ"
+172 http request GET http://172.18.1.139/request
+173 info attempt registry request try #3 at 15:16:39
+174 verbose etag "1f1f6-zLwQ1pyXSOkNH+2DE/dC3Q"
+175 http request GET http://172.18.1.139/cheerio
+176 info attempt registry request try #3 at 15:16:39
+177 verbose etag "95b67-DkkK6f5tQRZBH2Xl9f6TUQ"
+178 http request GET http://172.18.1.139/express
+179 info attempt registry request try #3 at 15:16:39
+180 verbose etag "121dc-nV+im8nPYxp4yeFKyT7XuQ"
+181 http request GET http://172.18.1.139/ejs
+182 info attempt registry request try #3 at 15:16:39
+183 verbose etag "226bb-1jHJC38u8Ns5TtXLt+hhog"
+184 http request GET http://172.18.1.139/async
+185 silly fetchPackageMetaData Error: connect ETIMEDOUT 172.18.1.139:80
+185 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+185 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+185 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+185 silly fetchPackageMetaData  error for cron { Error: connect ETIMEDOUT 172.18.1.139:80
+185 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+185 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+185 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+185 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+185 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+185 silly fetchPackageMetaData   syscall: 'connect',
+185 silly fetchPackageMetaData   address: '172.18.1.139',
+185 silly fetchPackageMetaData   port: 80 }
+186 silly get cb [ 304, undefined ]
+187 verbose etag http://172.18.1.139/cheerio from cache
+188 verbose get saving cheerio to /Users/chuan/.npm/172.18.1.139/cheerio/.cache.json
+189 verbose correctMkdir /Users/chuan/.npm correctMkdir not in flight; initializing
+190 silly get cb [ 304, undefined ]
+191 verbose etag http://172.18.1.139/request from cache
+192 verbose get saving request to /Users/chuan/.npm/172.18.1.139/request/.cache.json
+193 verbose correctMkdir /Users/chuan/.npm correctMkdir already in flight; waiting
+194 silly get cb [ 304, undefined ]
+195 verbose etag http://172.18.1.139/iconv-lite from cache
+196 verbose get saving iconv-lite to /Users/chuan/.npm/172.18.1.139/iconv-lite/.cache.json
+197 verbose correctMkdir /Users/chuan/.npm correctMkdir already in flight; waiting
+198 silly get cb [ 304, undefined ]
+199 verbose etag http://172.18.1.139/mongoose from cache
+200 verbose get saving mongoose to /Users/chuan/.npm/172.18.1.139/mongoose/.cache.json
+201 verbose correctMkdir /Users/chuan/.npm correctMkdir already in flight; waiting
+202 silly get cb [ 304, undefined ]
+203 verbose etag http://172.18.1.139/debug from cache
+204 verbose get saving debug to /Users/chuan/.npm/172.18.1.139/debug/.cache.json
+205 verbose correctMkdir /Users/chuan/.npm correctMkdir already in flight; waiting
+206 silly get cb [ 304, undefined ]
+207 verbose etag http://172.18.1.139/ejs from cache
+208 verbose get saving ejs to /Users/chuan/.npm/172.18.1.139/ejs/.cache.json
+209 verbose correctMkdir /Users/chuan/.npm correctMkdir not in flight; initializing
+210 silly get cb [ 304, undefined ]
+211 verbose etag http://172.18.1.139/express from cache
+212 verbose get saving express to /Users/chuan/.npm/172.18.1.139/express/.cache.json
+213 verbose correctMkdir /Users/chuan/.npm correctMkdir not in flight; initializing
+214 silly get cb [ 304, undefined ]
+215 verbose etag http://172.18.1.139/async from cache
+216 verbose get saving async to /Users/chuan/.npm/172.18.1.139/async/.cache.json
+217 verbose correctMkdir /Users/chuan/.npm correctMkdir not in flight; initializing
+218 silly rollbackFailedOptional Starting
+219 silly rollbackFailedOptional Finishing
+220 silly runTopLevelLifecycles Finishing
+221 silly install printInstalled
+222 verbose stack Error: connect ETIMEDOUT 172.18.1.139:80
+222 verbose stack     at Object.exports._errnoException (util.js:1022:11)
+222 verbose stack     at exports._exceptionWithHostPort (util.js:1045:20)
+222 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+223 verbose cwd /Users/chuan/Desktop/zry/201614node/14.crawl/tasks
+224 error Darwin 15.6.0
+225 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "request" "cheerio" "iconv-lite" "mongoose" "express" "debug" "async" "ejs" "cron" "--save"
+226 error node v7.1.0
+227 error npm  v3.10.9
+228 error code ETIMEDOUT
+229 error errno ETIMEDOUT
+230 error syscall connect
+231 error network connect ETIMEDOUT 172.18.1.139:80
+232 error network This is most likely not a problem with npm itself
+232 error network and is related to network connectivity.
+232 error network In most cases you are behind a proxy or have bad network settings.
+232 error network
+232 error network If you are behind a proxy, please make sure that the
+232 error network 'proxy' config is set properly.  See: 'npm help config'
+233 verbose exit [ 1, true ]
